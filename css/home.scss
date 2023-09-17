@@ -1,6 +1,6 @@
-section {
+.container {
   background: #ffebd36b;
-  max-width: 1440px;
+  // max-width: 1440px;
 }
 .left-column {
   p {
@@ -24,6 +24,18 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px;
+    right: 0;
+  }
+}
+.right-column {
+  max-width: 584px;
+  img:nth-child(2) {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
   }
 }
 
@@ -39,12 +51,19 @@ section {
     input {
       width: 85%;
     }
+
+    .search-botton {
+      right: 53px;
+    }
   }
 }
 @media (min-width: 992px) {
   .left-column {
     input {
       width: 80%;
+    }
+    .search-botton {
+      right: 0;
     }
   }
 }
@@ -68,6 +87,9 @@ section {
 @media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
+  .right-column {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
 }
