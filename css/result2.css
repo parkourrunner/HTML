@@ -1,0 +1,84 @@
+.wrapper {
+  background: rgba(255, 235, 211, 0.4196078431);
+}
+
+.search-input-wrapper input {
+  width: 100%;
+  height: 76px;
+  border: 2px solid;
+  border-radius: 8px;
+  padding-right: 80px !important;
+}
+.search-input-wrapper .search-botton {
+  width: 76px;
+  height: 76px;
+  border: 2px solid;
+  border-radius: 8px;
+  background: #92e3a9;
+  background-image: url(../img/search.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  right: 0;
+}
+
+.bg-green {
+  background: #92e3a9;
+}
+
+.speaker-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.card {
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+.more-button:focus {
+  box-shadow: none !important;
+}
+.more-button > img {
+  width: 30px;
+}
+
+#more > .table-wrapper {
+  min-width: 1000px;
+  min-height: 200px;
+}
+#more .row > .col {
+  padding: 0;
+}
+#more .row > .col > div {
+  border: 1px solid;
+  border-radius: 8px;
+  height: 85px;
+}
+#more .row > .col > div:first-child {
+  background-color: #92e3a9;
+}
+#more .row > .col:first-child {
+  width: 130px;
+}
+#more .row > .col:first-child > div {
+  background-color: #92e3a9;
+}
+#more .row > .col:nth-child(2) {
+  width: 150px;
+}
+#more .row > .col:nth-child(3) {
+  width: 130px;
+}
+#more .row > .col:nth-child(4) {
+  width: 130px;
+}
+#more .row > .col:nth-child(5) {
+  width: 130px;
+}
+#more .row > .col:nth-child(6) {
+  width: 130px;
+}
+#more .row > .col:last-child {
+  width: 130px;
+}
